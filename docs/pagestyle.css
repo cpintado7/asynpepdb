@@ -1,0 +1,46 @@
+input  {
+    max-width: 80px;
+    border:1px solid grey;
+    border-radius: 2px;
+}
+
+th {
+border:0px solid green;
+}
+
+td {
+    border:0px solid orange;
+}
+
+
+a {
+  background-color: springgreen; /* Green */
+  border-radius: 15px;
+  border: 2px solid green;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+a:hover {
+  background-color: blue;
+  border: 0px solid blue;
+  color: white;
+}
+
+
+#seq_column {
+    word-break: break-word;  
+}
+
+table{
+    border:0px solid blue;
+}

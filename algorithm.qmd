@@ -1,0 +1,12 @@
+---
+title: "Algorithm"
+---
+
+The aSynPEP-DB collects natural peptides that can be found in humans. However, users might be interested in
+
+i) Designing synthetic peptides fulfilling the described criteria.
+ii) Evaluate non-listed natural peptides.
+
+For these reasons, we have added the possibility of predicting such features with the complementary [aSynPEP discriminative algorithm](http://asynpep.ppmclab.com/).
+
+<img src="./logos/asynpep.png" width=500>

@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  search: false
+  title: "aSynPEP-DB"
+  reader-mode: true
+  page-footer: "&copy; 2023 Protein Folding and Conformational Diseases Lab / Bioinformatics corner"
+  navbar:
+    background: primary
+    pinned: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - database.qmd
+      - about.qmd
+      - statistics.qmd
+      - download.qmd
+      - algorithm.qmd
+      - authors.qmd
+      - references.qmd
+      - ppmclab.qmd
+    
+format:
+  html:
+    page-layout: full
+    theme: spacelab
+    css: styles.css
+    toc: true
+    toc-location: left
+    toc-title: " "

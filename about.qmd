@@ -1,0 +1,71 @@
+---
+title: "About"
+---
+
+## Background
+α-Synuclein aggregation is a key driver of neurodegeneration in Parkinson’s disease and related syndromes. Accordingly, obtaining a molecule that targets α-synuclein toxic assemblies with high affinity is a long-pursued objective. We exploited the biophysical properties of toxic oligomers and amyloid fibrils to identify a family of α-helical peptides that bind to these α-synuclein species with low nanomolar affinity, without interfering with the monomeric functional protein [[1]](references.html). We identified amphipaticyty, alpha-helical content and positive net charge as three key properties that these peptides share. This activity is translated into a high anti-aggregation potency and the ability to abrogate oligomer-induced cell damage. Using a structure-guided search we identified a human peptide (LL-37) expressed in the brain and the gastrointestinal tract with analogous binding, anti-aggregation, and detoxifying properties. We have recently hypothesized that endogenous amphipathic and cationic helical peptides like LL-37 might constitue a new therapeutic paradigm for specifically targeting toxic species in PD [[2]](references.html).
+
+The aSynPEP database collects human endogenous peptides (neuropeptides, antimicrobial peptides and gut-microbiome derived peptides) which meet the described criteria, therefore having the potential to selectively bind alpha-synuclein toxic oligomers and inhibit its irreversible fibrilization.
+
+## Database information
+
+**ID:** Peptide unique identifier.
+
+**Name:** Peptide name.
+
+**Type**: Peptide type (neuropeptide, antimicrobial or gut microbiome).
+
+**Helicity (AGADIR):** Helical score obtained from AGADIR external software [[3]](references.html).
+
+**Amphipaticity (uH):** Hydrophobic dipole moment obtained from an array of hydrophobicity values [[4]](references.html).
+
+**Net charge per residue (NCPR):** Global net charge averaged per residue obtained using the Henderson-Hasselbalch equation at pH 7.
+
+**Hydrophobicity (H):** Hydrophobic score obtained with Fauchere et al. scale (1983).
+
+**Length:** Peptide's number of residues.
+
+**Longest inhibitory region:** Region with inhibitory potential. It can be the full-length peptide or a defined region of it (obtained from 18aa windows ~ 5 helical turns).
+
+**Sequence:** amino acidic sequence of the peptide.
+
+## Record information
+
+In addition to the information collected in the main datatable, each record is enriched with the following additional features/annotations:
+
+**External ID:** ID of external database (NeuroPep or DRAMP).
+
+**UniProt accession number:** UniProt ID.
+
+**References:** PubMedIDs associated to each peptide.
+
+**Peptide sequence:** Full length peptide with the longest inhibitory regions highlighted.
+
+**Helical wheel:** Helical wheel depicts the spatial organization of hydrophobic and charged residues of the inhibitory region in an alpha-helical distribution.
+
+**pI:** Isoelectric point of the peptide inhibitory region. Calculated with localCIDER [[5]](references.html).
+
+**Mass:** Mass of the inhibitory regions (in kDa).
+
+**AlphaFold structure:** Predicted peptide structure by AlphaFold2-ColabFold [[6]](references.html).
+
+**pH of order:** Predicted pH-dependent order-disorder profile provided by DispHred [[7]](references.html).
+
+**Cytotoxicity:** as reported by ToxIBTL [[8]](references.html).
+
+**Blood-brain barrier permeability:** as reported by BBPPred [[9]](references.html).
+
+**Cell-penetrating:** as reported by BchemRF-CPPred [[10]](https://www.nature.com/articles/s41598-021-87134-w)
+
+**Expression:** as reported by The human protein atlas [[11]](references.html) and ProteomicsDB [[12]](references.html).
+
+**Pathways:** as reported by PubChem [[13]](references.html).
+
+
+## Discriminative algorithm
+
+The aSynPEP-DB collects natural peptides that can be found in humans. However, users might be interested in designing synthetic peptides fulfilling the described criteria or testing alternative datasets. For this reason, we have added the possibility of predicting such features with the complementary [aSynPEP descriminative algorithm](http://asynpep.ppmclab.com/).
+
+
+
+

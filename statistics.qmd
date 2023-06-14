@@ -1,0 +1,15 @@
+---
+title: "Statistics"
+---
+
+## Peptide classification 
+<img src="./stats/Pie_chart.svg" width=500>
+
+## Helicity distribution
+<img src="./stats/Helicity.svg" width=500>
+
+## Amphipathicity distribution
+<img src="./stats/Amphipathicity.svg" width=500>
+
+## NCPR distribution
+<img src="./stats/NCPR.svg" width=500>

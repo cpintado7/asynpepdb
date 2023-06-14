@@ -1,0 +1,39 @@
+---
+title: "References"
+---
+
+## Primary citations
+
+**If you find this database useful please cite:**
+
+[[1]](https://www.nature.com/articles/s41467-021-24039-2) Santos J, Gracia P, Navarro S, Peña-Díaz S, Pujols J, Cremades N, Pallarès I, Ventura S. **α-Helical peptidic scaffolds to target α-synuclein toxic species with nanomolar affinity.** Nat Commun. 2021 Jun 18;12(1):3752. doi: 10.1038/s41467-021-24039-2. 
+
+[[2]](https://www.sciencedirect.com/science/article/abs/pii/S0968000422000251?via%3Dihub) Santos J, Pallarès I, Ventura S. **Is a cure for Parkinson's disease hiding inside us?** Trends Biochem Sci. 2022 Aug;47(8):641-644. doi: 10.1016/j.tibs.2022.02.001.
+
+## Additional resources
+
+**aSynPEP-DB was built using the following additional resources:**
+
+[[3]](https://www.nature.com/articles/nsb0694-399) Muñoz V, Serrano L. **Elucidating the folding problem of helical peptides using empirical parameters.** Nat Struct Biol. 1994 Jun;1(6):399-409. doi: 10.1038/nsb0694-399. PMID: 7664054.
+
+[[4]](https://academic.oup.com/bioinformatics/article/24/18/2101/192677?login=false) Gautier R, Douguet D, Antonny B, Drin G. **HELIQUEST: a web server to screen sequences with specific alpha-helical properties.** Bioinformatics. 2008 Sep 15;24(18):2101-2. doi: 10.1093/bioinformatics/btn392.
+
+[[5]](https://www.cell.com/biophysj/fulltext/S0006-3495(16)34269-2) Holehouse AS, Das RK, Ahad JN, Richardson MO, Pappu RV. **CIDER: Resources to Analyze Sequence-Ensemble Relationships of Intrinsically Disordered Proteins.** Biophys J. 2017 Jan 10;112(1):16-21. doi: 10.1016/j.bpj.2016.11.3200.
+
+[[6]](https://www.nature.com/articles/s41586-021-03819-2) Mirdita M, Schütze K, Moriwaki Y, Heo L, Ovchinnikov S, Steinegger M. **ColabFold: making protein folding accessible to all.** Nat Methods. 2022 Jun;19(6):679-682. doi: 10.1038/s41592-022-01488-1.
+
+[[7]](https://www.mdpi.com/1422-0067/21/16/5814) Santos J, Iglesias V, Pintado C, Santos-Suárez J, Ventura S. **DispHred: A Server to Predict pH-Dependent Order-Disorder Transitions in Intrinsically Disordered Proteins.** Int J Mol Sci. 2020 Aug 13;21(16):5814. doi: 10.3390/ijms21165814.
+
+
+[[8]](https://academic.oup.com/bioinformatics/article/38/6/1514/6499265?login=false) Wei L, Ye X, Sakurai T, Mu Z, Wei L. **ToxIBTL: prediction of peptide toxicity based on information bottleneck and transfer learning.** Bioinformatics. 2022 Mar 4;38(6):1514-1524. doi: 10.1093/bioinformatics/btac006.
+
+[[9]](https://pubs.acs.org/doi/10.1021/acs.jcim.0c01115) Dai R, Zhang W, Tang W, Wynendaele E, Zhu Q, Bin Y, De Spiegeleer B, Xia J. **BBPpred: Sequence-Based Prediction of Blood-Brain Barrier Peptides with Feature Representation Learning and Logistic Regression.** J Chem Inf Model. 2021 Jan 25;61(1):525-534. doi: 10.1021/acs.jcim.0c01115.
+
+[[10]](https://www.nature.com/articles/s41598-021-87134-w) de Oliveira ECL, Santana K, Josino L, Lima E Lima AH, de Souza de Sales Júnior C. **Predicting cell-penetrating peptides using machine learning algorithms and navigating in their chemical space.** Sci Rep. 2021 Apr 7;11(1):7628. doi: 10.1038/s41598-021-87134-w.
+
+
+[[11]](https://www.science.org/doi/10.1126/science.1260419) Uhlén M, Fagerberg L, Hallström BM et al. **Proteomics. Tissue-based map of the human proteome.** Science. 2015 Jan 23;347(6220):1260419. doi: 10.1126/science.1260419.
+
+[[12]](https://academic.oup.com/nar/article/46/D1/D1271/4584631) Schmidt T, Samaras P, Frejno M, Gessulat S, Barnert M, Kienegger H, Krcmar H, Schlegl J, Ehrlich HC, Aiche S, Kuster B, Wilhelm M. **ProteomicsDB.** Nucleic Acids Res. 2018 Jan 4;46(D1):D1271-D1281. doi: 10.1093/nar/gkx1029.
+
+[[13]](https://academic.oup.com/nar/article/51/D1/D1373/6777787?login=false) Kim S, Chen J, Cheng T, Gindulyte A, He J, He S, Li Q, Shoemaker BA, Thiessen PA, Yu B, Zaslavsky L, Zhang J, Bolton EE. **PubChem 2023 update.** Nucleic Acids Res. 2023 Jan 6;51(D1):D1373-D1380. doi: 10.1093/nar/gkac956.

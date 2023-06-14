@@ -1,0 +1,115 @@
+---
+title: ASYNP38
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP38
+
+## Peptide name
+
+Mutacin-2 (Mutacin II mutacin H-29B; Bacteriocin)
+
+## Type
+
+Gut-microbiome
+
+## Source ID
+
+[GMrepo1309](https://gmrepo.humangut.info/taxon/1309)
+
+[DRAMP00052](http://dramp.cpu-bioinfor.org/browse/All_Information.php?id=DRAMP00052&dataset==)
+
+## UniProt Accession number
+
+[O54329](https://www.uniprot.org/uniprotkb/O54329/entry)
+
+[ P84110](https://www.uniprot.org/uniprotkb/ P84110/entry)
+
+## NCBI Taxon ID
+
+[1309](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1309)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 27
+Longest inhibitory region: 1-19
+         10         20
+ <span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>P</span><span style='background-color:lightgreen';>T</span> <span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>Y</span><span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>C</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>M</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>S</span>W QHVFTCC</pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/DRAMP00052.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+1.8
+
+## Amphipathicity (uH)
+
+0.3
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.1
+
+## Hydrophobicity (H)
+
+0.49
+
+# Physicochemical properties
+
+## pI
+
+9.19
+
+## Mass
+
+2.31 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/DRAMP00052.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/DRAMP00052.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/DRAMP00052.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=5.49E-11
+
+## Blood Brain Barrier permeability (BBPPred)
+
+BBP | probability=0.58
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=90.72%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/O54329)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=O54329&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=O54329&tab=pathway)
+

@@ -1,0 +1,111 @@
+---
+title: ASYNP08
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP08
+
+## Peptide name
+
+QRF-amide
+
+## Type
+
+Neuropeptide
+
+## Source ID
+
+[NP05222](http://isyslab.info/NeuroPep/search_info?pepNum=NP05222)
+
+## UniProt Accession number
+
+[P83859](https://www.uniprot.org/uniprotkb/P83859/entry)
+
+## NCBI Taxon ID
+
+[9606](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 43
+Longest inhibitory region: 19-43
+         10         20         30         40
+ QDEGSEATGF LPAAGEKT<span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>G</span> <span style='background-color:lightgreen';>P</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>N</span> <span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>Y</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>S</span> <span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>F</span></pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/NP05222.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+1.1
+
+## Amphipathicity (uH)
+
+0.34
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.1
+
+## Hydrophobicity (H)
+
+0.11
+
+# Physicochemical properties
+
+## pI
+
+10.28
+
+## Mass
+
+2.73 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/NP05222.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/NP05222.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/NP05222.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=1.92E-10
+
+## Blood Brain Barrier permeability (BBPPred)
+
+BBP | probability=0.51
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=94.71%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/P83859)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=P83859&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=P83859&tab=pathway)
+

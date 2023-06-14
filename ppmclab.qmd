@@ -1,0 +1,9 @@
+---
+title: "PPMC-LAB"
+---
+<img src="./logos/grouplogo.jpg" width=300> <img src="./logos/IBB.png" width=200> <img src="./logos/Logo_uab.png" width=200> 
+
+Our lab uses a multidisciplinary approach to address fundamental aspects of protein folding, misfolding and aggregation. In addition to define the basic mechanistic principles underlying these processes, we aim to understand how their deregulation leads to the onset of human conformational diseases and to develop innovative therapeutics to target these pathologies. Moreover, this knowledge should allow us to design and produce novel and better protein-based biopharmaceuticals as well as the development of new self-assembled materials for nanotechnology applications.
+
+<p>Twitter: <a href="https://twitter.com/PPMC_UAB" class="uri">https://twitter.com/PPMC_UAB</a></p>
+<p>Website: <a href="https://ibb.uab.cat/wp-content/themes/viral/modules/ibb_membres/view_grup.php?CodiGrup=36">PPMC-LAB</a></p>

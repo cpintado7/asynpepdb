@@ -1,0 +1,121 @@
+---
+title: ASYNP33
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP33
+
+## Peptide name
+
+Islet amyloid polypeptide
+
+## Type
+
+Neuropeptide
+
+## Source ID
+
+[NP00850](http://isyslab.info/NeuroPep/search_info?pepNum=NP00850)
+
+## UniProt Accession number
+
+[P10997](https://www.uniprot.org/uniprotkb/P10997/entry)
+
+## NCBI Taxon ID
+
+[9606](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606)
+
+## PubMed ID
+
+[3317417](https://pubmed.ncbi.nlm.nih.gov/3317417/)
+
+[2091067](https://pubmed.ncbi.nlm.nih.gov/2091067/)
+
+[3035556](https://pubmed.ncbi.nlm.nih.gov/3035556/)
+
+[17374526](https://pubmed.ncbi.nlm.nih.gov/17374526/)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 37
+Longest inhibitory region: Full peptide
+         10         20         30
+ <span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>C</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>C</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>Q</span> <span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>H</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>S</span> <span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>T</span> <span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>Y</span></pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/NP00850.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+4.2
+
+## Amphipathicity (uH)
+
+0.21
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.06
+
+## Hydrophobicity (H)
+
+0.37
+
+# Physicochemical properties
+
+## pI
+
+9.19
+
+## Mass
+
+3.91 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/NP00850.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/NP00850.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/NP00850.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=1.91E-17
+
+## Blood Brain Barrier permeability (BBPPred)
+
+BBP | probability=0.96
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=91.99%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/P10997)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=P10997&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=P10997&tab=pathway)
+

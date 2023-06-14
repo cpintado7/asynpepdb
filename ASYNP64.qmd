@@ -1,0 +1,117 @@
+---
+title: ASYNP64
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP64
+
+## Peptide name
+
+Lacticin Z (Bacteriocin)
+
+## Type
+
+Gut-microbiome
+
+## Source ID
+
+[GMrepo1358](https://gmrepo.humangut.info/taxon/1358)
+
+[DRAMP00258](http://dramp.cpu-bioinfor.org/browse/All_Information.php?id=DRAMP00258&dataset==)
+
+## UniProt Accession number
+
+[A7M6Q0](https://www.uniprot.org/uniprotkb/A7M6Q0/entry)
+
+## NCBI Taxon ID
+
+[1358](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1358)
+
+## PubMed ID
+
+[17690480](https://pubmed.ncbi.nlm.nih.gov/17690480/)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 53
+Longest inhibitory region: 1-25
+         10         20         30         40         50
+ <span style='background-color:lightgreen';>M</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>I</span> <span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>Y</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>Q</span> <span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>N</span>KGKIL DWINAGQAID WVVEKIKQIL GIK</pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/DRAMP00258.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+3.2
+
+## Amphipathicity (uH)
+
+0.36
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.1
+
+## Hydrophobicity (H)
+
+0.55
+
+# Physicochemical properties
+
+## pI
+
+10.5
+
+## Mass
+
+2.78 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/DRAMP00258.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/DRAMP00258.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/DRAMP00258.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=1.02E-14
+
+## Blood Brain Barrier permeability (BBPPred)
+
+non-BBP | probability=0.12
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=89.24%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/A7M6Q0)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=A7M6Q0&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=A7M6Q0&tab=pathway)
+
