@@ -1,0 +1,117 @@
+---
+title: ASYNP007
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP007
+
+## Peptide name
+
+Corticoliberin
+
+## Type
+
+Neuropeptide
+
+## Source ID
+
+[NP05241](http://isyslab.info/NeuroPep/search_info?pepNum=NP05241)
+
+## UniProt Accession number
+
+[P06850](https://www.uniprot.org/uniprotkb/P06850/entry)
+
+## Source organism
+
+*Homo sapiens*
+
+[9606](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=Homo sapiens;9606)
+
+## PubMed ID
+
+No associated references found
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 41
+Longest inhibitory region: 22-39
+         10         20         30         40
+ SEEPPISLDL TFHLLREVLE M<span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>Q</span> <span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>H</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>M</span><span style='background-color:lightgreen';>E</span>I I</pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/NP05241.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+33.5
+
+## Amphipathicity (uH)
+
+0.21
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.1
+
+## Hydrophobicity (H)
+
+0.02
+
+# Physicochemical properties
+
+## pI
+
+11.38
+
+## Mass
+
+2.08 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/NP05241.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/NP05241.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/NP05241.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=1.81E-21
+
+## Blood Brain Barrier permeability (BBPPred)
+
+non-BBP | probability=0.14
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=82.49%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/P06850)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=P06850&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=P06850&tab=pathway)
+

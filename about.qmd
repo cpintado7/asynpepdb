@@ -3,9 +3,12 @@ title: "About"
 ---
 
 ## Background
-α-Synuclein aggregation is a key driver of neurodegeneration in Parkinson’s disease and related syndromes. Accordingly, obtaining a molecule that targets α-synuclein toxic assemblies with high affinity is a long-pursued objective. We exploited the biophysical properties of toxic oligomers and amyloid fibrils to identify a family of α-helical peptides that bind to these α-synuclein species with low nanomolar affinity, without interfering with the monomeric functional protein [[1]](references.html). We identified amphipaticyty, alpha-helical content and positive net charge as three key properties that these peptides share. This activity is translated into a high anti-aggregation potency and the ability to abrogate oligomer-induced cell damage. Using a structure-guided search we identified a human peptide (LL-37) expressed in the brain and the gastrointestinal tract with analogous binding, anti-aggregation, and detoxifying properties. We have recently hypothesized that endogenous amphipathic and cationic helical peptides like LL-37 might constitue a new therapeutic paradigm for specifically targeting toxic species in PD [[2]](references.html).
 
-The aSynPEP database collects human endogenous peptides (neuropeptides, antimicrobial peptides and gut-microbiome derived peptides) which meet the described criteria, therefore having the potential to selectively bind alpha-synuclein toxic oligomers and inhibit its irreversible fibrilization.
+Parkinson’s disease (PD) is the second most prevalent neurodegenerative disease. However, there is a lack of effective treatments able to stop or delay disease progression. The aggregation of a synaptic protein, α-synuclein (aSyn), is the main neurological hallmark of PD and thus, a promising target for therapeutic intervention. Therefore, there is a pressing need to identify and develop novel molecules able to target aSyn aggregates specifically.
+
+Our research group has recently uncovered the physicochemical principles responsible for the binding of short peptides to aSyn toxic species with nanomolar affinity [[1]](references.html). These include alpha-helical propensity, amphipathicity and positive net charge. Such experimentally derived parameters allowed us to identify a human peptide (LL-37) that binds tightly to aSyn aggregates, blocks their neurotoxicity and is believed to play a role in controlling aSyn aggregation in disease-relevant tissues. This discovery opened an avenue for identifying additional human endogenous peptides as therapeutic entities to treat PD or define new biomarkers to monitor in PD patients [[2]](references.html).  We are confident that the previously identified peptides are only a small fraction of the universe of natural peptides harboring such activities in the human peptidome/microbiome.
+
+The aSynPEP database collects human natural peptides (neuropeptides, antimicrobial peptides, gut-microbiome derived peptides and food-derived bioactive peptides) which meet the described criteria, therefore having the potential to selectively bind aSyn toxic oligomers, blocking them and inhibiting their irreversible fibrilization.
 
 ## Database information
 
@@ -13,7 +16,7 @@ The aSynPEP database collects human endogenous peptides (neuropeptides, antimicr
 
 **Name:** Peptide name.
 
-**Type**: Peptide type (neuropeptide, antimicrobial or gut microbiome).
+**Type**: Peptide type (neuropeptide, antimicrobial, gut microbiome, food-derived).
 
 **Helicity (AGADIR):** Helical score obtained from AGADIR external software [[3]](references.html).
 
@@ -33,13 +36,15 @@ The aSynPEP database collects human endogenous peptides (neuropeptides, antimicr
 
 In addition to the information collected in the main datatable, each record is enriched with the following additional features/annotations:
 
-**External ID:** ID of external database (NeuroPep or DRAMP).
+**Source ID:** ID of external database (NeuroPep, DRAMP, GMRepo).
 
 **UniProt accession number:** UniProt ID.
 
+**NCBI Taxon ID:** NCBI organism identifier.
+
 **References:** PubMedIDs associated to each peptide.
 
-**Peptide sequence:** Full length peptide with the longest inhibitory regions highlighted.
+**Peptide sequence:** Full length peptide with the longest inhibitory region highlighted.
 
 **Helical wheel:** Helical wheel depicts the spatial organization of hydrophobic and charged residues of the inhibitory region in an alpha-helical distribution.
 
@@ -62,7 +67,7 @@ In addition to the information collected in the main datatable, each record is e
 **Pathways:** as reported by PubChem [[13]](references.html).
 
 
-## Discriminative algorithm
+## aSynPEP discriminative algorithm
 
 The aSynPEP-DB collects natural peptides that can be found in humans. However, users might be interested in designing synthetic peptides fulfilling the described criteria or testing alternative datasets. For this reason, we have added the possibility of predicting such features with the complementary [aSynPEP descriminative algorithm](http://asynpep.ppmclab.com/).
 

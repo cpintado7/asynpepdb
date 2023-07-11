@@ -1,0 +1,121 @@
+---
+title: ASYNP055
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP055
+
+## Peptide name
+
+Enterocin L50B (EntL51B; Bacteriocin)
+
+## Type
+
+Gut-microbiome
+
+## Source ID
+
+[GMrepoEnterococcus faecium;1352](https://gmrepo.humangut.info/taxon/Enterococcus faecium;1352)
+
+[DRAMP00176](http://dramp.cpu-bioinfor.org/browse/All_Information.php?id=DRAMP00176&dataset==)
+
+## UniProt Accession number
+
+[D4QP38](https://www.uniprot.org/uniprotkb/D4QP38/entry)
+
+## Source organism
+
+*Enterococcus faecium*
+
+[1352](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=Enterococcus faecium;1352)
+
+## PubMed ID
+
+[9555877](https://pubmed.ncbi.nlm.nih.gov/9555877/)
+
+[20398277](https://pubmed.ncbi.nlm.nih.gov/20398277/)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 43
+Longest inhibitory region: Full peptide
+         10         20         30         40
+ <span style='background-color:lightgreen';>M</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>K</span> <span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>P</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>Y</span> <span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>M</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>G</span> <span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>D</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>L</span> <span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>H</span></pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/DRAMP00176.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+2.7
+
+## Amphipathicity (uH)
+
+0.23
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.14
+
+## Hydrophobicity (H)
+
+0.57
+
+# Physicochemical properties
+
+## pI
+
+10.5
+
+## Mass
+
+5.18 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/DRAMP00176.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/DRAMP00176.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/DRAMP00176.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=7.84E-06
+
+## Blood Brain Barrier permeability (BBPPred)
+
+BBP | probability=0.53
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=78.63%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/D4QP38)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=D4QP38&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=D4QP38&tab=pathway)
+

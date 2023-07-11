@@ -1,0 +1,117 @@
+---
+title: ASYNP108
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP108
+
+## Peptide name
+
+Anticancer peptide; Peptide XT-7
+
+## Type
+
+Food-derived
+
+## Source ID
+
+[DFBPANCA0042](http://www.cqudfbp.net/commonPages/protertyPage.jsp?DFBPIDmark=DFBPANCA0042,anticancer_peptides)
+
+## UniProt Accession number
+
+[P84381](https://www.uniprot.org/uniprotkb/P84381/entry)
+
+## Source organism
+
+*Xenopus tropicalis*
+
+[8364](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=Xenopus tropicalis;8364)
+
+## PubMed ID
+
+[18554256](https://pubmed.ncbi.nlm.nih.gov/18554256/)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 18
+Longest inhibitory region: Full peptide
+         10
+ <span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>P</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>A</span> <span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>L</span></pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/DFBPANCA0042.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+1.9
+
+## Amphipathicity (uH)
+
+0.47
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.11
+
+## Hydrophobicity (H)
+
+0.66
+
+# Physicochemical properties
+
+## pI
+
+12.25
+
+## Mass
+
+1.78 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/DFBPANCA0042.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/DFBPANCA0042.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/DFBPANCA0042.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=1.32E-18
+
+## Blood Brain Barrier permeability (BBPPred)
+
+non-BBP | probability=0.06
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=91.04%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/P84381)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=P84381&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=P84381&tab=pathway)
+

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>aSynPEP-DB - ASYNP099</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">aSynPEP-DB</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./database.html">
+ <span class="menu-text">Database</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./statistics.html">
+ <span class="menu-text">Statistics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./download.html">
+ <span class="menu-text">Download</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./algorithm.html">
+ <span class="menu-text">Algorithm</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./authors.html">
+ <span class="menu-text">Authors</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./references.html">
+ <span class="menu-text">References</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./ppmclab.html">
+ <span class="menu-text">PPMC-LAB</span></a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+   
+  <ul>
+  <li><a href="#entry-details" id="toc-entry-details" class="nav-link active" data-scroll-target="#entry-details">Entry details</a>
+  <ul class="collapse">
+  <li><a href="#asynpep-id" id="toc-asynpep-id" class="nav-link" data-scroll-target="#asynpep-id">aSynPEP ID</a></li>
+  <li><a href="#peptide-name" id="toc-peptide-name" class="nav-link" data-scroll-target="#peptide-name">Peptide name</a></li>
+  <li><a href="#type" id="toc-type" class="nav-link" data-scroll-target="#type">Type</a></li>
+  <li><a href="#source-id" id="toc-source-id" class="nav-link" data-scroll-target="#source-id">Source ID</a></li>
+  <li><a href="#uniprot-accession-number" id="toc-uniprot-accession-number" class="nav-link" data-scroll-target="#uniprot-accession-number">UniProt Accession number</a></li>
+  <li><a href="#source-organism" id="toc-source-organism" class="nav-link" data-scroll-target="#source-organism">Source organism</a></li>
+  <li><a href="#pubmed-id" id="toc-pubmed-id" class="nav-link" data-scroll-target="#pubmed-id">PubMed ID</a></li>
+  </ul></li>
+  <li><a href="#asynpep-features" id="toc-asynpep-features" class="nav-link" data-scroll-target="#asynpep-features">aSynPEP features</a>
+  <ul class="collapse">
+  <li><a href="#peptide-sequence" id="toc-peptide-sequence" class="nav-link" data-scroll-target="#peptide-sequence">Peptide sequence</a></li>
+  <li><a href="#helical-wheel" id="toc-helical-wheel" class="nav-link" data-scroll-target="#helical-wheel">Helical wheel</a></li>
+  <li><a href="#helicity-agadir" id="toc-helicity-agadir" class="nav-link" data-scroll-target="#helicity-agadir">Helicity (AGADIR)</a></li>
+  <li><a href="#amphipathicity-uh" id="toc-amphipathicity-uh" class="nav-link" data-scroll-target="#amphipathicity-uh">Amphipathicity (uH)</a></li>
+  <li><a href="#ncpr" id="toc-ncpr" class="nav-link" data-scroll-target="#ncpr">NCPR</a></li>
+  <li><a href="#hydrophobicity-h" id="toc-hydrophobicity-h" class="nav-link" data-scroll-target="#hydrophobicity-h">Hydrophobicity (H)</a></li>
+  </ul></li>
+  <li><a href="#physicochemical-properties" id="toc-physicochemical-properties" class="nav-link" data-scroll-target="#physicochemical-properties">Physicochemical properties</a>
+  <ul class="collapse">
+  <li><a href="#pi" id="toc-pi" class="nav-link" data-scroll-target="#pi">pI</a></li>
+  <li><a href="#mass" id="toc-mass" class="nav-link" data-scroll-target="#mass">Mass</a></li>
+  </ul></li>
+  <li><a href="#predicted-properties" id="toc-predicted-properties" class="nav-link" data-scroll-target="#predicted-properties">Predicted properties</a>
+  <ul class="collapse">
+  <li><a href="#alphafold-structural-model" id="toc-alphafold-structural-model" class="nav-link" data-scroll-target="#alphafold-structural-model">AlphaFold structural model</a></li>
+  <li><a href="#ph-of-order-disphred" id="toc-ph-of-order-disphred" class="nav-link" data-scroll-target="#ph-of-order-disphred">pH of order (DispHred)</a></li>
+  <li><a href="#cytotoxicity-toxibtl" id="toc-cytotoxicity-toxibtl" class="nav-link" data-scroll-target="#cytotoxicity-toxibtl">Cytotoxicity (ToxIBTL)</a></li>
+  <li><a href="#blood-brain-barrier-permeability-bbppred" id="toc-blood-brain-barrier-permeability-bbppred" class="nav-link" data-scroll-target="#blood-brain-barrier-permeability-bbppred">Blood Brain Barrier permeability (BBPPred)</a></li>
+  <li><a href="#cell-penetrating-bchemrf-cppred" id="toc-cell-penetrating-bchemrf-cppred" class="nav-link" data-scroll-target="#cell-penetrating-bchemrf-cppred">Cell-penetrating (BchemRF-CPPred)</a></li>
+  </ul></li>
+  <li><a href="#expression" id="toc-expression" class="nav-link" data-scroll-target="#expression">Expression</a>
+  <ul class="collapse">
+  <li><a href="#gutbrain-expression" id="toc-gutbrain-expression" class="nav-link" data-scroll-target="#gutbrain-expression">Gut/brain expression</a></li>
+  </ul></li>
+  <li><a href="#pathways" id="toc-pathways" class="nav-link" data-scroll-target="#pathways">Pathways</a>
+  <ul class="collapse">
+  <li><a href="#pathways-1" id="toc-pathways-1" class="nav-link" data-scroll-target="#pathways-1">Pathways</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">ASYNP099</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><a href="database.html">Back to database</a></p>
+<section id="entry-details" class="level1">
+<h1>Entry details</h1>
+<section id="asynpep-id" class="level2">
+<h2 class="anchored" data-anchor-id="asynpep-id">aSynPEP ID</h2>
+<p>ASYNP099</p>
+</section>
+<section id="peptide-name" class="level2">
+<h2 class="anchored" data-anchor-id="peptide-name">Peptide name</h2>
+<p>Anticancer peptide</p>
+</section>
+<section id="type" class="level2">
+<h2 class="anchored" data-anchor-id="type">Type</h2>
+<p>Food-derived</p>
+</section>
+<section id="source-id" class="level2">
+<h2 class="anchored" data-anchor-id="source-id">Source ID</h2>
+<p><a href="http://www.cqudfbp.net/commonPages/protertyPage.jsp?DFBPIDmark=DFBPANCA0003,anticancer_peptides">DFBPANCA0003</a></p>
+</section>
+<section id="uniprot-accession-number" class="level2">
+<h2 class="anchored" data-anchor-id="uniprot-accession-number">UniProt Accession number</h2>
+<p><a href="https://www.uniprot.org/uniprotkb/P24627/entry">P24627</a></p>
+</section>
+<section id="source-organism" class="level2">
+<h2 class="anchored" data-anchor-id="source-organism">Source organism</h2>
+<p><em>Bos taurus</em></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=Bos%20taurus;9913">9913</a></p>
+</section>
+<section id="pubmed-id" class="level2">
+<h2 class="anchored" data-anchor-id="pubmed-id">PubMed ID</h2>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/12362437/">12362437</a></p>
+</section>
+</section>
+<section id="asynpep-features" class="level1">
+<h1>aSynPEP features</h1>
+<section id="peptide-sequence" class="level2">
+<h2 class="anchored" data-anchor-id="peptide-sequence">Peptide sequence</h2>
+<pre style="border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px" ;="">Peptide length: 22
+Longest inhibitory region: Full peptide
+         10         20
+ <span style="background-color:lightgreen" ;="">F</span><span style="background-color:lightgreen" ;="">K</span><span style="background-color:lightgreen" ;="">C</span><span style="background-color:lightgreen" ;="">R</span><span style="background-color:lightgreen" ;="">R</span><span style="background-color:lightgreen" ;="">W</span><span style="background-color:lightgreen" ;="">Q</span><span style="background-color:lightgreen" ;="">W</span><span style="background-color:lightgreen" ;="">R</span><span style="background-color:lightgreen" ;="">M</span> <span style="background-color:lightgreen" ;="">K</span><span style="background-color:lightgreen" ;="">K</span><span style="background-color:lightgreen" ;="">L</span><span style="background-color:lightgreen" ;="">G</span><span style="background-color:lightgreen" ;="">A</span><span style="background-color:lightgreen" ;="">P</span><span style="background-color:lightgreen" ;="">S</span><span style="background-color:lightgreen" ;="">I</span><span style="background-color:lightgreen" ;="">T</span><span style="background-color:lightgreen" ;="">C</span> <span style="background-color:lightgreen" ;="">V</span><span style="background-color:lightgreen" ;="">R</span></pre>
+</section>
+<section id="helical-wheel" class="level2">
+<h2 class="anchored" data-anchor-id="helical-wheel">Helical wheel</h2>
+<p><img src="./helical_wheels/DFBPANCA0003.svg" width="500" height="500"></p>
+</section>
+<section id="helicity-agadir" class="level2">
+<h2 class="anchored" data-anchor-id="helicity-agadir">Helicity (AGADIR)</h2>
+<p>1.1</p>
+</section>
+<section id="amphipathicity-uh" class="level2">
+<h2 class="anchored" data-anchor-id="amphipathicity-uh">Amphipathicity (uH)</h2>
+<p>0.23</p>
+</section>
+<section id="ncpr" class="level2">
+<h2 class="anchored" data-anchor-id="ncpr">NCPR</h2>
+<p><span style="color:blue; font-weigth:bold;">+</span>0.32</p>
+</section>
+<section id="hydrophobicity-h" class="level2">
+<h2 class="anchored" data-anchor-id="hydrophobicity-h">Hydrophobicity (H)</h2>
+<p>0.42</p>
+</section>
+</section>
+<section id="physicochemical-properties" class="level1">
+<h1>Physicochemical properties</h1>
+<section id="pi" class="level2">
+<h2 class="anchored" data-anchor-id="pi">pI</h2>
+<p>12.46875</p>
+</section>
+<section id="mass" class="level2">
+<h2 class="anchored" data-anchor-id="mass">Mass</h2>
+<p>2.75 kDa</p>
+</section>
+</section>
+<section id="predicted-properties" class="level1">
+<h1>Predicted properties</h1>
+<section id="alphafold-structural-model" class="level2">
+<h2 class="anchored" data-anchor-id="alphafold-structural-model">AlphaFold structural model</h2>
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>
+<div class="viewer_3Dmoljs" style="height: 400px; width: 400px; position: relative;" data-href="./alphafold/DFBPANCA0003.pdb" data-backgroundcolor="0xffffff" data-style="cartoon" data-ui="true">
+
+</div>
+<p><a href="./alphafold/DFBPANCA0003.pdb">Download PDB</a></p>
+</section>
+<section id="ph-of-order-disphred" class="level2">
+<h2 class="anchored" data-anchor-id="ph-of-order-disphred">pH of order (DispHred)</h2>
+<p><img src="./disphred_plots/DFBPANCA0003.svg" width="500" height="400"></p>
+</section>
+<section id="cytotoxicity-toxibtl" class="level2">
+<h2 class="anchored" data-anchor-id="cytotoxicity-toxibtl">Cytotoxicity (ToxIBTL)</h2>
+<p>non-toxic | probability=8.53E-08</p>
+</section>
+<section id="blood-brain-barrier-permeability-bbppred" class="level2">
+<h2 class="anchored" data-anchor-id="blood-brain-barrier-permeability-bbppred">Blood Brain Barrier permeability (BBPPred)</h2>
+<p>BBP | probability=0.81</p>
+</section>
+<section id="cell-penetrating-bchemrf-cppred" class="level2">
+<h2 class="anchored" data-anchor-id="cell-penetrating-bchemrf-cppred">Cell-penetrating (BchemRF-CPPred)</h2>
+<p>CPP | probability=72.11%</p>
+</section>
+</section>
+<section id="expression" class="level1">
+<h1>Expression</h1>
+<section id="gutbrain-expression" class="level2">
+<h2 class="anchored" data-anchor-id="gutbrain-expression">Gut/brain expression</h2>
+<p>By <a href="https://www.proteinatlas.org/search/P24627">The Human Protein Atlas</a></p>
+<p>By <a href="https://www.proteomicsdb.org/search?q=P24627&amp;type=Protein">ProteomicsDB</a></p>
+</section>
+</section>
+<section id="pathways" class="level1">
+<h1>Pathways</h1>
+<section id="pathways-1" class="level2">
+<h2 class="anchored" data-anchor-id="pathways-1">Pathways</h2>
+<p><a href="https://pubchem.ncbi.nlm.nih.gov/#query=P24627&amp;tab=pathway">PubChem</a></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">© 2023 Protein Folding and Conformational Diseases Lab / Bioinformatics corner</div>
+  </div>
+</footer>
+
+
+
+</body></html>

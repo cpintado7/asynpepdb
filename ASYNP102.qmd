@@ -1,0 +1,117 @@
+---
+title: ASYNP102
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP102
+
+## Peptide name
+
+Anticancer peptide; Dermaseptin B2
+
+## Type
+
+Food-derived
+
+## Source ID
+
+[DFBPANCA0031](http://www.cqudfbp.net/commonPages/protertyPage.jsp?DFBPIDmark=DFBPANCA0031,anticancer_peptides)
+
+## UniProt Accession number
+
+[P31107](https://www.uniprot.org/uniprotkb/P31107/entry)
+
+## Source organism
+
+*Phyllomedusa bicolor*
+
+[8393](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=Phyllomedusa bicolor;8393)
+
+## PubMed ID
+
+[21132338](https://pubmed.ncbi.nlm.nih.gov/21132338/)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 33
+Longest inhibitory region: Full peptide
+         10         20         30
+ <span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>G</span> <span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>A</span> <span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>S</span> <span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>V</span></pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/DFBPANCA0031.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+10.4
+
+## Amphipathicity (uH)
+
+0.2
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.09
+
+## Hydrophobicity (H)
+
+0.2
+
+# Physicochemical properties
+
+## pI
+
+9.953125
+
+## Mass
+
+3.18 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/DFBPANCA0031.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/DFBPANCA0031.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/DFBPANCA0031.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=2.71E-16
+
+## Blood Brain Barrier permeability (BBPPred)
+
+non-BBP | probability=0.06
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=89.57%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/P31107)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=P31107&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=P31107&tab=pathway)
+

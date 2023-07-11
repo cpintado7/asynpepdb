@@ -1,0 +1,117 @@
+---
+title: ASYNP092
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP092
+
+## Peptide name
+
+RK-31
+
+## Type
+
+Antimicrobial
+
+## Source ID
+
+[DRAMP03568](http://dramp.cpu-bioinfor.org/browse/All_Information.php?id=DRAMP03568&dataset==)
+
+## UniProt Accession number
+
+[P49913](https://www.uniprot.org/uniprotkb/P49913/entry)
+
+## Source organism
+
+*Homo sapiens*
+
+[9606](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=Homo sapiens;9606)
+
+## PubMed ID
+
+[14978112](https://pubmed.ncbi.nlm.nih.gov/14978112/)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 31
+Longest inhibitory region: Full peptide
+         10         20         30
+ <span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>E</span> <span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>D</span> <span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>P</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>E</span> <span style='background-color:lightgreen';>S</span></pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/DRAMP03568.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+5.3
+
+## Amphipathicity (uH)
+
+0.54
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.23
+
+## Hydrophobicity (H)
+
+0.04
+
+# Physicochemical properties
+
+## pI
+
+11.81
+
+## Mass
+
+3.8 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/DRAMP03568.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/DRAMP03568.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/DRAMP03568.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=4.52E-09
+
+## Blood Brain Barrier permeability (BBPPred)
+
+BBP | probability=0.83
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=65.17%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/P49913)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=P49913&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=P49913&tab=pathway)
+

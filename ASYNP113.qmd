@@ -1,0 +1,117 @@
+---
+title: ASYNP113
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP113
+
+## Peptide name
+
+Anticancer peptide; LL37
+
+## Type
+
+Food-derived
+
+## Source ID
+
+[DFBPANCA0056](http://www.cqudfbp.net/commonPages/protertyPage.jsp?DFBPIDmark=DFBPANCA0056,anticancer_peptides)
+
+## UniProt Accession number
+
+Precursor protein not found
+
+## Source organism
+
+*Bos taurus*
+
+[9913](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=Bos taurus;9913)
+
+## PubMed ID
+
+[20100862](https://pubmed.ncbi.nlm.nih.gov/20100862/)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 37
+Longest inhibitory region: Full peptide
+         10         20         30
+ <span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>D</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>K</span> <span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>I</span> <span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>D</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>N</span> <span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>P</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>E</span><span style='background-color:lightgreen';>S</span></pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/DFBPANCA0056.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+4.8
+
+## Amphipathicity (uH)
+
+0.52
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.16
+
+## Hydrophobicity (H)
+
+0.2
+
+# Physicochemical properties
+
+## pI
+
+11.375
+
+## Mass
+
+4.49 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/DFBPANCA0056.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/DFBPANCA0056.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/DFBPANCA0056.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=2.23E-05
+
+## Blood Brain Barrier permeability (BBPPred)
+
+non-BBP | probability=0.25
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=72.78%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/Precursor protein not found)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=Precursor protein not found&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=Precursor protein not found&tab=pathway)
+

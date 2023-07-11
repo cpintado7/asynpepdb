@@ -1,0 +1,119 @@
+---
+title: ASYNP052
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP052
+
+## Peptide name
+
+Plantaricin NC8 alpha peptide (PLNC8 alpha; Bacteriocin)
+
+## Type
+
+Gut-microbiome
+
+## Source ID
+
+[GMrepoLactiplantibacillus plantarum;1590](https://gmrepo.humangut.info/taxon/Lactiplantibacillus plantarum;1590)
+
+[DRAMP00135](http://dramp.cpu-bioinfor.org/browse/All_Information.php?id=DRAMP00135&dataset==)
+
+## UniProt Accession number
+
+[Q84HW0](https://www.uniprot.org/uniprotkb/Q84HW0/entry)
+
+## Source organism
+
+*Lactiplantibacillus plantarum*
+
+[1590](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=Lactiplantibacillus plantarum;1590)
+
+## PubMed ID
+
+[12514019](https://pubmed.ncbi.nlm.nih.gov/12514019/)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 28
+Longest inhibitory region: Full peptide
+         10         20
+ <span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>G</span> <span style='background-color:lightgreen';>Y</span><span style='background-color:lightgreen';>Y</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>N</span> <span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>H</span><span style='background-color:lightgreen';>P</span><span style='background-color:lightgreen';>Y</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>F</span></pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/DRAMP00135.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+1.5
+
+## Amphipathicity (uH)
+
+0.23
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.18
+
+## Hydrophobicity (H)
+
+0.54
+
+# Physicochemical properties
+
+## pI
+
+10.39
+
+## Mass
+
+3.47 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/DRAMP00135.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/DRAMP00135.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/DRAMP00135.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=3.50E-05
+
+## Blood Brain Barrier permeability (BBPPred)
+
+non-BBP | probability=0.43
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=68.62%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/Q84HW0)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=Q84HW0&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=Q84HW0&tab=pathway)
+

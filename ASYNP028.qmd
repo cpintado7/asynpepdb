@@ -1,0 +1,117 @@
+---
+title: ASYNP028
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP028
+
+## Peptide name
+
+Oxyntomodulin (By similarity)
+
+## Type
+
+Neuropeptide
+
+## Source ID
+
+[NP02472](http://isyslab.info/NeuroPep/search_info?pepNum=NP02472)
+
+## UniProt Accession number
+
+[P01275](https://www.uniprot.org/uniprotkb/P01275/entry)
+
+## Source organism
+
+*Homo sapiens*
+
+[9606](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=Homo sapiens;9606)
+
+## PubMed ID
+
+No associated references found
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 37
+Longest inhibitory region: 14-37
+         10         20         30
+ HSQGTFTSDY SKY<span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>D</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>Q</span> <span style='background-color:lightgreen';>D</span><span style='background-color:lightgreen';>F</span><span style='background-color:lightgreen';>V</span><span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>W</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>M</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>T</span><span style='background-color:lightgreen';>K</span> <span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>R</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>N</span><span style='background-color:lightgreen';>I</span><span style='background-color:lightgreen';>A</span></pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/NP02472.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+13.8
+
+## Amphipathicity (uH)
+
+0.3
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.14
+
+## Hydrophobicity (H)
+
+0.13
+
+# Physicochemical properties
+
+## pI
+
+12.47
+
+## Mass
+
+2.95 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/NP02472.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/NP02472.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/NP02472.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=7.24E-20
+
+## Blood Brain Barrier permeability (BBPPred)
+
+BBP | probability=0.65
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=68.98%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/P01275)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=P01275&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=P01275&tab=pathway)
+

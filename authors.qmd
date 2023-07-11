@@ -5,7 +5,7 @@ title: "Authors"
 ## Carlos Pintado-Grima
 <a href="https://orcid.org/0000-0002-8544-959X" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEUAAACmzjmmzjmmzjmmzjmmzjn////0+ebj8MHe7bXT55y82mus0UWmzjmSwCmNJ4LqAAAABnRSTlMAIGC/z+8mlFLTAAAAaElEQVR42k2OsQmAMBRET3CAFG5gbWMv6CBpRT44knM4hU3ESl6bLs5gEUW7x3GPO0k1tJJUAQxS4S3B4VRiCejVcCU2gjosjtO2CyymdSHDOT/A/Eu63NnVZCuoBIBehQc43Df63rgBoFJNFnlCBV4AAAAASUVORK5CYII="></a>
 
-<p><img src="./authors/carlos.png" width=200></p>
+<p><img src="./authors/carlos.png" width=230></p>
 <p>Carlos Pintado-Grima is a PhD student in Bioinformatics at the
 Institute of Biotechnology and Biomedicine at the Autonomous University
 of Barcelona (UAB). He obtained his degree in Biology and the Bachelor
@@ -33,6 +33,7 @@ follow his career by enrolling in the joint Bioinformatics Ph.D. program
 at UAB. His research will focus on the analysis of protein folding and
 aggregation data, as well as in silico protein design.</p>
 <p>Twitter: <a href="https://twitter.com/oriolbarcenas" class="uri">https://twitter.com/oriolbarcenas</a></p>
+<p>GitHub: <a href="https://github.com/oriol-barcenas" class="uri">https://github.com/oriol-barcenas</a></p>
 
 
 ## Valentin Iglesias
@@ -43,10 +44,31 @@ aggregation data, as well as in silico protein design.</p>
 
 <p>Twitter: <a href="https://twitter.com/valentniglesias" class="uri">https://twitter.com/valentiniglesias</a> </p>
 
+
+## Jaime Santos
+
+<a href="https://orcid.org/0000-0001-9045-7765" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEUAAACmzjmmzjmmzjmmzjmmzjn////0+ebj8MHe7bXT55y82mus0UWmzjmSwCmNJ4LqAAAABnRSTlMAIGC/z+8mlFLTAAAAaElEQVR42k2OsQmAMBRET3CAFG5gbWMv6CBpRT44knM4hU3ESl6bLs5gEUW7x3GPO0k1tJJUAQxS4S3B4VRiCejVcCU2gjosjtO2CyymdSHDOT/A/Eu63NnVZCuoBIBehQc43Df63rgBoFJNFnlCBV4AAAAASUVORK5CYII="></a>
+
+<p><img src="./authors/jaime.png" width="190px" /></p>
+<p>Jaime Santos is a postdoctoral researcher at UAB working in the PPMC-LAB. His research is based on the study of alpha-synuclein aggregation and the design of molecular binders that target alpha-synuclein aggregated species.</p>
+
+
+## Zoe Manglano-Artuñedo
+<p><img src="./authors/zoe.jpg" width="230px" /></p>
+<p>Zoe Manglano-Artuñedo is a PhD student in Biochemistry working with peptides and small molecules for inhibiting tau and alpha-synuclein aggregation.</p>
+
+
+## Irantzu Pallarès
+<a href="https://orcid.org/0000-0002-8205-2060" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEUAAACmzjmmzjmmzjmmzjmmzjn////0+ebj8MHe7bXT55y82mus0UWmzjmSwCmNJ4LqAAAABnRSTlMAIGC/z+8mlFLTAAAAaElEQVR42k2OsQmAMBRET3CAFG5gbWMv6CBpRT44knM4hU3ESl6bLs5gEUW7x3GPO0k1tJJUAQxS4S3B4VRiCejVcCU2gjosjtO2CyymdSHDOT/A/Eu63NnVZCuoBIBehQc43Df63rgBoFJNFnlCBV4AAAAASUVORK5CYII="></a>
+
+<p><img src="./authors/irantzu.jpg" width="250px" /></p>
+<p>Irantzu Pallarès is a titular professor of Biochemistry at UAB and project codirector in the PPMC-LAB group.
+
+
 ## Michał Burdukiewicz
 <a href="https://orcid.org/0000-0001-8926-582X" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEUAAACmzjmmzjmmzjmmzjmmzjn////0+ebj8MHe7bXT55y82mus0UWmzjmSwCmNJ4LqAAAABnRSTlMAIGC/z+8mlFLTAAAAaElEQVR42k2OsQmAMBRET3CAFG5gbWMv6CBpRT44knM4hU3ESl6bLs5gEUW7x3GPO0k1tJJUAQxS4S3B4VRiCejVcCU2gjosjtO2CyymdSHDOT/A/Eu63NnVZCuoBIBehQc43Df63rgBoFJNFnlCBV4AAAAASUVORK5CYII="></a>
 
-<p><img src="./authors/michal.jpeg" width="200px" /></p>
+<p><img src="./authors/michal.jpeg" width="180px" /></p>
 <p>Michał Burdukiewicz is currently working as a post-doc at the
 Institute of Biotechnology and Biomedicine at the Autonomous University
 of Barcelona and a research assistant in the Centre for Clinical
@@ -63,7 +85,7 @@ monitored by mass spectrometry.</p>
 ## Salvador Ventura
 <a href="https://orcid.org/0000-0002-9652-6351" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEUAAACmzjmmzjmmzjmmzjmmzjn////0+ebj8MHe7bXT55y82mus0UWmzjmSwCmNJ4LqAAAABnRSTlMAIGC/z+8mlFLTAAAAaElEQVR42k2OsQmAMBRET3CAFG5gbWMv6CBpRT44knM4hU3ESl6bLs5gEUW7x3GPO0k1tJJUAQxS4S3B4VRiCejVcCU2gjosjtO2CyymdSHDOT/A/Eu63NnVZCuoBIBehQc43Df63rgBoFJNFnlCBV4AAAAASUVORK5CYII="></a>
 
-<p><img src="./authors/salva.jpeg" width="200px" /></p>
+<p><img src="./authors/salva.jpeg" width="250px" /></p>
 <p>Salvador Ventura is a PhD in Biology and professor of Biochemistry
 and Molecular Biology at the Autonomous University of Barcelona (UAB).
 He is an ICREA researcher at the Institute of Biotechnology and
@@ -72,15 +94,3 @@ research group that investigates the link between protein structure and
 degenerative diseases to create new molecules to treat them.</p>
 <p>Twitter: <a href="https://twitter.com/PPMC_UAB" class="uri">https://twitter.com/PPMC_UAB</a></p>
 <p>Website: <a href="https://ibb.uab.cat/wp-content/themes/viral/modules/ibb_membres/view_grup.php?CodiGrup=36">PPMC-LAB</a></p>
-
-## Jaime Santos
-
-Jaime info here
-
-## Irantzu Pallarès
-
-Irantzu info here
-
-## Zoe Manglano-Artuñedo
-
-Zoe info here

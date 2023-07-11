@@ -1,0 +1,117 @@
+---
+title: ASYNP097
+---
+
+[Back to database](database.html)
+
+# Entry details
+
+## aSynPEP ID
+
+ASYNP097
+
+## Peptide name
+
+Antioxidative peptide; CSP1
+
+## Type
+
+Food-derived
+
+## Source ID
+
+[DFBPANOX0539](http://www.cqudfbp.net/commonPages/protertyPage.jsp?DFBPIDmark=DFBPANOX0539,antioxidative_peptides)
+
+## UniProt Accession number
+
+Precursor protein not found
+
+## Source organism
+
+*Cuminum cyminum*
+
+[52462](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=Cuminum cyminum;52462)
+
+## PubMed ID
+
+[10.1016/j.jff.2016.01.011](https://pubmed.ncbi.nlm.nih.gov/10.1016/j.jff.2016.01.011/)
+
+# aSynPEP features
+
+## Peptide sequence
+
+<pre style='border-radius:4px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 9.5px';>Peptide length: 23
+Longest inhibitory region: 5-22
+         10         20
+ FFRS<span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>S</span><span style='background-color:lightgreen';>D</span><span style='background-color:lightgreen';>G</span> <span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>K</span><span style='background-color:lightgreen';>G</span><span style='background-color:lightgreen';>A</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>L</span><span style='background-color:lightgreen';>P</span> <span style='background-color:lightgreen';>Q</span><span style='background-color:lightgreen';>Y</span>W</pre>
+
+## Helical wheel
+
+<img src='./helical_wheels/DFBPANOX0539.svg' width='500' height='500'>
+
+## Helicity (AGADIR)
+
+3.6
+
+## Amphipathicity (uH)
+
+0.2
+
+## NCPR
+
+<span style='color:blue; font-weigth:bold;'>+</span>0.1
+
+## Hydrophobicity (H)
+
+0.39
+
+# Physicochemical properties
+
+## pI
+
+9.734375
+
+## Mass
+
+1.79 kDa
+
+# Predicted properties
+
+## AlphaFold structural model
+
+<script src='https://3Dmol.org/build/3Dmol-min.js'></script>
+<script src='https://3Dmol.org/build/3Dmol.ui-min.js'></script>
+ <div style='height: 400px; width: 400px; position: relative;' class='viewer_3Dmoljs' data-href='./alphafold/DFBPANOX0539.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-ui='true'></div>
+
+[Download PDB](./alphafold/DFBPANOX0539.pdb)
+
+## pH of order (DispHred)
+
+<img src='./disphred_plots/DFBPANOX0539.svg' width='500' height='400'>
+
+## Cytotoxicity (ToxIBTL)
+
+non-toxic | probability=9.31E-10
+
+## Blood Brain Barrier permeability (BBPPred)
+
+BBP | probability=0.66
+
+## Cell-penetrating (BchemRF-CPPred)
+
+Non-CPP | probability=83.67%
+
+# Expression
+
+## Gut/brain expression
+
+By [The Human Protein Atlas](https://www.proteinatlas.org/search/Precursor protein not found)
+
+By [ProteomicsDB](https://www.proteomicsdb.org/search?q=Precursor protein not found&type=Protein)
+
+# Pathways
+
+## Pathways
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/#query=Precursor protein not found&tab=pathway)
+

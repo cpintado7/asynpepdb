@@ -4,13 +4,14 @@ title: "Download"
 
 | Dataset | File format | Description |
 |---------|-------------|------|
-| [Database records](./fastas/positives_record.csv)  | .csv | Full comprehensive information collected in aSynPEP-DB |
+| [Database records](./fastas/positives_record.csv)  | .csv | Full comprehensive information collected in aSynPEP-DB. For proper visualization, please ensure that you open the file with only comma (,) as delimitator. |
 | [All positives](./fastas/positives.fasta)     | .fasta | List of all positive peptides collected in the database   |
 | [All negatives](./fastas/negatives.txt)     | .txt | List of all negative peptide IDs obtained after the screening |
 | [Neuropeptides](./fastas/neuropep_human.fasta)     | .fasta | Human neuropeptides from NeuroPep used for the screening  | 
 | [AMPs](./fastas/dramp_human.fasta)       | .fasta | Human AMPs from DRAMP used for the screening |
 | [Gut microbiota](./fastas/dramp_hmicrobiome.fasta)       | .fasta | Human gut microbiome peptides from DRAMP-GMrepo used for the screening  |
+| [Food-derived bioactive peptides](./fastas/dfbp_food.fasta)       | .fasta | Food-derived bioactive peptides from DFBP used for the screening |
 | [AlphaFold PDBs](./alphafold/af_pdbs.zip)       | .zip | AF PDB files for all positive hits |
 | [Helical wheels](./helical_wheels/helical_wheels.zip)       | .zip | SVG files with the helical wheel represenation for all positive hits |
 | [DispHred plots](./disphred_plots/disphred_plots.zip)       | .zip | SVG files with pH-dependent order profile for all positive hits |
-| [GitHub repository](https://github.com/cpintado7/asynpep_standalone)  | .git | Repository with all files needed for running the database |
+| [GitHub repository](https://github.com/cpintado7/asynpepdb)  | .git | Repository with all files needed for running the database |
